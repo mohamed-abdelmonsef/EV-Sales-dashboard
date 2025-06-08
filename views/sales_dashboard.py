@@ -311,7 +311,7 @@ if st.button("Generate Insights"):
     with st.spinner("Generating insights..."):
         try:
             response = ollama.chat(
-                model='llama3.1:2b',
+                model='llama3.1:8b',
                 messages=[
                     {
                         'role': 'system',
